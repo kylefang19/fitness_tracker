@@ -1,0 +1,44 @@
+########################################
+# Terraform
+########################################
+.terraform/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock files are OK to commit (recommended)
+# !.terraform.lock.hcl
+
+########################################
+# Build artifacts / packaging
+########################################
+build/
+dist/
+*.zip
+
+########################################
+# Python
+########################################
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+.env
+
+########################################
+# OS / editor noise
+########################################
+.DS_Store
+.vscode/
+.idea/
